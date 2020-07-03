@@ -40,31 +40,31 @@
         getUrl(url)
       }
     </script>
-    </head>
-    <body>
-      <noscript>This site requires JavaScript.</noscript>
-      <h1 id="h">Encrypted Text Bin</h1>
+  </head>
+  <body>
+    <noscript>This site requires JavaScript.</noscript>
+    <h1 id="h">Encrypted Text Bin</h1>
 
-      <p>
-        The contents of you page is compressed using LZString.js and
-        encrypted using mjsCrypt.js, and stored in the hash of the .
-        The encryption is unproven, and may only act as a deterent.
-        If you need truly safe encryption, use PGP.
-      </p>
+    <p>
+      The contents of you page is compressed using LZString.js and
+      encrypted using mjsCrypt.js, and stored in the hash of the .
+      The encryption is unproven, and may only act as a deterent.
+      If you need truly safe encryption, use PGP.
+    </p>
 
-      <textarea id="page" placeholder="Write here"></textarea>
+    <textarea id="page" placeholder="Write here"></textarea>
 
-      <p>
-        Password (the longer the better):
-        <input id="newkey" type="password"></input>
-      </p>
+    <p>
+      Password (the longer the better):
+      <input id="newkey" type="password"></input>
+    </p>
 
-      <p>Build the page:
-        <input onclick="encrypt()" type="button" text="Ok" value="OK"></input>
-      </p>
+    <p>Build the page:
+      <input onclick="encrypt()" type="button" text="Ok" value="OK"></input>
+    </p>
 
-      <p>
-        Here's your url: <a id="link"></a>
-      </p>
-    </body>
+    <p>
+      Here's your url: <a id="link"></a>
+    </p>
+  </body>
 </html>

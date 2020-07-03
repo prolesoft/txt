@@ -28,7 +28,7 @@
       const decrypt = () => {
         const key = document.getElementById('k').value
         try {
-          var decryptedContent = LZString
+          const decryptedContent = LZString
             .decompressFromUint8Array(
               mjsCrypt.decryptUint8Array(splithash[0], key))
 
