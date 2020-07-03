@@ -37,8 +37,7 @@
           if (!decryptedContent) {
             document.body.innerText = 'Failed'
           }
-        } catch (e) {
-          console.log('Failed:' + e)
+        } catch {
           document.body.innerText = 'Failed'
         }
       }
