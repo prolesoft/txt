@@ -1,8 +1,6 @@
 # [txt](https://prolesoft.github.io/txt)
 
-Client-side encrypted (no server) text sharing
-
-todo:
-replace one-off crypto with bcrypt or scrypt, if available for the browser
+Client-side encrypted (no server) text sharing. Probably secure enough for truly
+sensitive data, use PGP in that case.
 
 [LICENSE](./LICENSE.md)
